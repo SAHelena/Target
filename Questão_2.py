@@ -26,4 +26,4 @@ def fibonacci(n):
         print ('Este número não pertence a sequência.')
     return 
 
-fibonacci(34)
+fibonacci(34)      # *Valor limitado dado no enunciado *
