@@ -3,7 +3,7 @@ def percentual (n, total):
     separar = str(calculo).split('.')
     porcent = separar[0]
     print('Aproximadamente', porcent, '%')
-    return
+    return 
 
 #total = 180759.98
 #sp = 67836.43

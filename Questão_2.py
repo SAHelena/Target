@@ -3,16 +3,19 @@ def fibonacci(n):
     var2 = 0
     i = 0
     lista = []
+    
     while var2 < n + 1:
         soma = var1 + var2
         var1 = var2
         var2 = soma
         i = [var1]
         lista.append(var1)
+    
     valor = (int(input('Digite um número:')))
     i = 0
     pert = []
     naoPert = []
+    
     while i < (len(lista)):    
         if valor == lista[i]:
             pert.append('pertence')
